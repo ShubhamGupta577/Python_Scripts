@@ -11,7 +11,7 @@ def rename():
     #Setting the new name for the file
     name="image"+str(i)+'.jpg'
     source=path+file
-    destination=path+destination
+    destination=path+name
     #Renaming the file name
     os.rename(source,destination)
     i+=1
